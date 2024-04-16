@@ -23,7 +23,7 @@
     'python3 ~/.config/eww/scripts/get-tasks.py')
 
 (defwidget tasklist []
-    (box :orientation "v"
+    (box :orientation "v" :space-evenly true
         (for entry in entries
             (label :text "${entry.task}")
         )
