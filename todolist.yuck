@@ -22,8 +22,6 @@
                  :initial-value "[1, 2]"
     'python3 ~/.config/eww/scripts/get-tasks.py')
 
-(defvar my-json "[1, 2, 3]")
-
 (defwidget tasklist []
     (box :orientation "v"
         (for entry in entries
