@@ -24,7 +24,9 @@
 
 (defwidget tasklist []
     (box
-        (label :text "${entries}")
+        (for entry in entries
+    (button :onclick "notify-send 'click' 'button ${entry}'"
+      entry)))
     )
 )
 
