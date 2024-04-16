@@ -18,7 +18,9 @@
     )
 )
 
-
+(defpoll entries :interval "15s"
+                 :initial-value "[]"
+    'python3 ~/.config/eww/scripts/get-tasks')
 
 (defwidget tasklist []
     (box
