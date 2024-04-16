@@ -1,3 +1,3 @@
-- [ ] do
-- [x] thing
-- [ ] now
+- [ ] Finish Short Story
+- [ ] Crack Memoir
+- [ ] 
