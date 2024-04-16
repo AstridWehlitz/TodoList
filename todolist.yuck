@@ -20,7 +20,7 @@
 
 (defpoll entries :interval "2s"
                  :initial-value "[1, 2]"
-    'python3 ~/.config/eww/scripts/get-tasks')
+    'python3 ~/.config/eww/scripts/get-tasks.py')
 
 (defvar my-json "[1, 2, 3]")
 
