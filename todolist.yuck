@@ -25,7 +25,7 @@
 (defvar my-json "[1, 2, 3]")
 
 (defwidget tasklist []
-    (box
+    (box :orientation "v"
     (for entry in my-json
     (button :onclick "notify-send 'click' 'button ${entry}'"
       entry)))
