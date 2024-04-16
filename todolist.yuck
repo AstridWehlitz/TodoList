@@ -25,7 +25,7 @@
 (defwidget tasklist []
     (box :orientation "v" :class "tasklist" :valign "end"
         (for entry in entries
-            (box
+            (box :space-evenly false
                 (label :halign "start" :text "[ ]")
                 (label :halign "start" :text "${entry.task}")
             )
