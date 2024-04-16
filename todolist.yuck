@@ -23,7 +23,7 @@
     'python3 ~/.config/eww/scripts/get-tasks.py')
 
 (defwidget tasklist []
-    (box :orientation "v" :class "tasklist" 
+    (box :orientation "v" :class "tasklist" :valign "end"
         (for entry in entries
             (label :text "${entry.task}")
         )
