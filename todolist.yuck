@@ -18,7 +18,7 @@
     )
 )
 
-(deflisten entries :initial "[]" "bash ~/.config/eww/scripts/get-tasks")
+
 
 (defwidget tasklist []
     (box
