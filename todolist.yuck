@@ -26,7 +26,7 @@
     (box :orientation "v" :class "tasklist" :valign "end"
         (for entry in entries
             (box :halign "start"
-                (label :halign "start" :text "aaa")
+                (label :halign "start" :text "[ ]")
                 (label :halign "center" :text "${entry.task}")
             )
         )
