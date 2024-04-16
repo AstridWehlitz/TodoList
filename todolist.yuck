@@ -28,7 +28,9 @@
     (box :orientation "v" :class "tasklist" :valign "end"
         (for entry in entries
             (box :space-evenly false
-                (label :halign "start" :text "[${entry.checked ? "X" : " "}]")
+                (button :onclick "python3 ~/.config/eww/scripts/task-check ${entry.id}"
+                    (label :halign "start" :text "[${entry.checked ? "X" : " "}]")
+                )
                 (label :halign "start" :text "${entry.task}")
             )
         )
