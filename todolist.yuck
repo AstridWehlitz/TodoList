@@ -33,6 +33,6 @@
 (defwidget ctrlbar []
     (box :class "ctrlbar"
          :valign "end"
-        (label :text "a")
+        (label :text "New Task - Clear Completed")
     )
 )
