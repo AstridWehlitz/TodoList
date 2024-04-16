@@ -24,9 +24,7 @@
 
 (defwidget tasklist []
     (box
-        (for task in entries
-            (label :text "${task}")
-        )
+        (label :text "$entries")
     )
 )
 
