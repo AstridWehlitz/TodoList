@@ -22,7 +22,7 @@
 
 (defwidget tasklist []
     (box
-        
+        (label :text "a")
     )
 )
 
