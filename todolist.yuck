@@ -25,7 +25,7 @@
 (defwidget tasklist []
     (box :orientation "v" :class "tasklist" :valign "end"
         (for entry in entries
-            (label :text "${entry.task}")
+            (label :halign "left" :text "${entry.task}")
         )
     )
 )
