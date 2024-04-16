@@ -22,6 +22,8 @@
                  :initial-value "[1, 2]"
     'python3 ~/.config/eww/scripts/get-tasks')
 
+(defvar my-json "[1, 2, 3]")
+
 (defwidget tasklist []
     (box
     (for entry in my-json
