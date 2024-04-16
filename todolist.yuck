@@ -12,7 +12,7 @@
 )
 
 (defwidget taskman []
-    (box :class "taskman" :orientation "v" :vexpand false
+    (box :class "taskman" :orientation "v"
         (tasklist)
         (ctrlbar)
     )
