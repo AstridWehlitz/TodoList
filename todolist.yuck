@@ -26,9 +26,10 @@
 
 (defwidget tasklist []
     (box :orientation "v"
-    (for entry in entries
-    (button :onclick "notify-send 'click' 'button ${entry}'"
-      entry)))
+        (for entry in entries
+            
+        )
+    )
 )
 
 (defwidget ctrlbar []
