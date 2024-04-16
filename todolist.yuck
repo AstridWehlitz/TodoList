@@ -24,11 +24,9 @@
 
 (defwidget tasklist []
     (box
-        (for entry in entries
-            (button :onclick "notify-send 'click' 'button ${entry}'"
-            entry)
-      )
-    )
+    (for entry in my-json
+    (button :onclick "notify-send 'click' 'button ${entry}'"
+      entry)))
 )
 
 (defwidget ctrlbar []
