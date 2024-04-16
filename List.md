@@ -1,2 +1,2 @@
 - [x] do
-- [x] thing
+- [ ] thing
