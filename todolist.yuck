@@ -27,7 +27,7 @@
         (for entry in entries
             (box
                 (label :halign "start" :text "[ ]")
-                (label :halign "center" :text "${entry.task}")
+                (label :halign "start" :text "${entry.task}")
             )
         )
     )
