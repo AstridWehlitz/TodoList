@@ -1,3 +1,3 @@
-- [ ] Finish Short Story
+- [ ]  Short Story
 - [ ] Crack Memoir
 - [ ] Art History Assignments
