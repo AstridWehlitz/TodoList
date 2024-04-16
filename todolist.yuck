@@ -19,14 +19,14 @@
 )
 
 (defpoll entries :interval "2s"
-                 :initial-value "[]"
+                 :initial-value "[1, 2]"
     'python3 ~/.config/eww/scripts/get-tasks')
 
 (defwidget tasklist []
     (box
         (for entry in entries
             (button :onclick "notify-send 'click' 'button ${entry}'"
-            entry)
+            (label))
       )
     )
 )
