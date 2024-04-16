@@ -1,0 +1,34 @@
+(defwindow taskman
+    :monitor 0
+    :geometry (geometry 
+        :x "10px"
+        :y "10px"
+        :width "400px"
+        :height "50px"
+        :anchor "left bottom")
+    :stacking "overlay"
+    :exclusive false
+    (taskman)
+)
+
+(defwidget taskman []
+    (box :class "taskman" :orientation "v"
+        (tasklist)
+        (ctrlbar)
+    )
+)
+
+
+
+(defwidget tasklist []
+    (box
+        (label :text "a")
+    )
+)
+
+(defwidget ctrlbar []
+    (box :class "ctrlbar"
+         :valign "end"
+        (label :text "a")
+    )
+)
