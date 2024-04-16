@@ -4,7 +4,7 @@
         :x "10px"
         :y "10px"
         :width "400px"
-        :height "0px"
+        :height "50px"
         :anchor "left bottom")
     :stacking "overlay"
     :exclusive false
@@ -23,7 +23,7 @@
     'python3 ~/.config/eww/scripts/get-tasks.py')
 
 (defwidget tasklist []
-    (box :orientation "v"
+    (box :orientation "v" :class "tasklist"
         (for entry in entries
             (label :text "${entry.task}")
         )
@@ -33,6 +33,6 @@
 (defwidget ctrlbar []
     (box :class "ctrlbar"
          :valign "end"
-        (label :text "a")
+        (label :text "New Task - Clear Completed")
     )
 )

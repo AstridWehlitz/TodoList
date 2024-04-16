@@ -1,8 +1,16 @@
 
 .taskman {
     background: rgba(40, 40, 40, 0.8);
+
+    & > * {
+        all: unset;
+    }
 }
 
 .ctrlbar {
     background: #1d2021;
+}
+
+.tasklist {
+    background: #39839b;
 }
